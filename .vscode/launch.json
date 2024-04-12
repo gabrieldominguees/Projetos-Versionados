@@ -43,9 +43,88 @@
 				"_FPriPr"
 			],
 			"label": ""
+		},
+		{
+			"args": [
+				"_FPROG0"
+			],
+			"label": ""
+		},
+		{
+			"args": [
+				"PROG0"
+			],
+			"label": ""
+		},
+		{
+			"args": [
+				"-FPROG0"
+			],
+			"label": ""
+		},
+		{
+			"label": "FPROG01"
+		},
+		{
+			"args": [
+				"PROG0"
+			],
+			"label": "FPROG01"
+		},
+		{
+			"args": [
+				"_FPROG0"
+			],
+			"label": "FPROG01"
+		},
+		{
+			"args": [
+				"_condica"
+			],
+			"label": "FPROG01"
+		},
+		{
+			"args": [
+				"_FPROG"
+			],
+			"label": "FPROG01"
+		},
+		{
+			"args": [
+				"_FPRO"
+			],
+			"label": "FPROG01"
+		},
+		{
+			"args": [
+				"condica"
+			],
+			"label": "FPROG01"
+		},
+		{
+			"args": [
+				"_test"
+			],
+			"label": "FPROG01"
+		},
+		{
+			"label": "teste"
+		},
+		{
+			"args": [
+				"_test"
+			],
+			"label": "teste"
+		},
+		{
+			"args": [
+				"_FPROG0"
+			],
+			"label": "teste"
 		}
 	],
 	"lastProgramArguments": [
-		"_FPriPr"
-	]
+		"_FPROG0"
+	],
+	"lastProgramExecuted": "teste"
 }
