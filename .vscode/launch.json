@@ -4,6 +4,22 @@
 		{
 			"type": "totvs_language_debug",
 			"request": "launch",
+			"name": "SMARTCLIENT 12.1.33 - Gabriel",
+			"program": "program",
+			"programArguments": [
+				"${command:AskForProgramArguments}"
+			],
+			"smartclientBin": "C:\\TOTVS12_33\\Protheus\\Protheus\\bin\\smartclient\\smartclient.exe",
+			"cwb": "${workspaceFolder}",
+			"isMultiSession": true,
+			"enableTableSync": true,
+			"extendFeatures": {
+				"charDetails": false
+			}
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
 			"name": "Depuração do idioma TOTVS",
 			"program": "${command:AskForProgramName}",
 			"cwb": "${workspaceFolder}",
@@ -14,5 +30,22 @@
 				"charDetails": false
 			}
 		}
+	],
+	"lastPrograms": [
+		{
+			"args": [
+				"PriPr"
+			],
+			"label": ""
+		},
+		{
+			"args": [
+				"_FPriPr"
+			],
+			"label": ""
+		}
+	],
+	"lastProgramArguments": [
+		"_FPriPr"
 	]
 }
