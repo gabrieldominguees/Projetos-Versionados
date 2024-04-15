@@ -9,7 +9,7 @@
 			"programArguments": [
 				"${command:AskForProgramArguments}"
 			],
-			"smartclientBin": "C:\\TOTVS12_33\\Protheus\\Protheus\\bin\\smartclient\\smartclient.exe",
+			"smartclientBin": "E:\\TOTVS12\\Protheus\\Protheus\\bin\\smartclient\\smartclient.exe",
 			"cwb": "${workspaceFolder}",
 			"isMultiSession": true,
 			"enableTableSync": true,
@@ -121,10 +121,16 @@
 				"_FPROG0"
 			],
 			"label": "teste"
+		},
+		{
+			"args": [
+				"_TEST"
+			],
+			"label": "teste"
 		}
 	],
 	"lastProgramArguments": [
-		"_FPROG0"
+		"_TEST"
 	],
 	"lastProgramExecuted": "teste"
 }
