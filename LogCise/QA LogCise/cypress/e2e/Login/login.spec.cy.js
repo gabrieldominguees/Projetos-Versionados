@@ -17,24 +17,22 @@ describe('Página de Login', () => {
       cy.get('input[name="email"]').type(email);
       cy.get('input[name="password"]').type(password);
       cy.get('button[type="submit"]').click();
-      cy.url().should('https://cisehomologa.z13.web.core.windows.net/dashboard/');});
+      cy.get('.logo-sm > .text-white')
+    });
   
     it('Tenta fazer login com credenciais inválidas', () => {
       cy.get('input[name="email"]').type('email@invalido@invalido.com.br.');
       cy.get('input[name="password"]').type('senhaerrada');
       cy.get('button[type="submit"]').click();
-      //cy.contains('Credenciais inválidas').should('be.visible'); // Ajuste conforme a mensagem de erro
     });
   
     it('Tenta fazer login com campo de email vazio', () => {
       cy.get('input[name="password"]').type(password);
       cy.get('button[type="submit"]').click();
-      //cy.contains('O campo email é obrigatório').should('be.visible'); // Ajuste conforme a mensagem de erro
     });
   
     it('Tenta fazer login com campo de password vazio', () => {
       cy.get('input[name="email"]').type(email);
       cy.get('button[type="submit"]').click();
-      //cy.contains('O campo password é obrigatório').should('be.visible'); // Ajuste conforme a mensagem de erro
     });
   });

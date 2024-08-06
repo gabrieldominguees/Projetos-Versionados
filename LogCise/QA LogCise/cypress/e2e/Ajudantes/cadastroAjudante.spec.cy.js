@@ -3,7 +3,7 @@ describe('Testes de Cadastro de Ajudante', () => {
       cy.visit('https://cisehomologa.z13.web.core.windows.net/'); // Ajuste a URL conforme necessário
       // Realizar login para acessar a página de cadastro
       cy.get('input[name="email"]').type('c2@c2ss.com.br');
-      cy.get('input[name="senha"]').type('123456');
+      cy.get('input[name="password"]').type('123456');
       cy.get('button[type="submit"]').click();
       cy.url().should('include', '/pagina-principal'); // Ajuste a URL conforme necessário
       cy.visit('/assistants/create'); // Ajuste a URL conforme necessário
