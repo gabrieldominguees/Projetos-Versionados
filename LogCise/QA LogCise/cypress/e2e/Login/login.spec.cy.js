@@ -17,7 +17,7 @@ describe('Página de Login', () => {
       cy.get('input[name="email"]').type(email);
       cy.get('input[name="password"]').type(password);
       cy.get('button[type="submit"]').click();
-      cy.get('.logo-sm > .text-white')
+      cy.contains('h4', 'Dashboard')
     });
   
     it('Tenta fazer login com credenciais inválidas', () => {

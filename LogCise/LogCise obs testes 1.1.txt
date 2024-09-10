@@ -1,0 +1,100 @@
+Ao atualizar a pagina, apresenta um erro
+
+--Usuarios--
+Cadastrar:
+	permite numero e caracter especial no campo nome
+
+--Transportadora--
+Cadastrar:
+	permite caracter especial no campo nome
+	permite caracter especial no campo nome reduzido
+	
+Consultas:
+	filtros nao estao funcionando - esta aparecendo "não foi possível lista de transportadoras".
+
+--Ajudantes--
+Cadastrar:
+	permite caracter especial no campo nome
+	permite caracter especial no campo nome reduzido
+	o campo endereço tambem esta aceitando caracter especial
+	nao esta sendo possivel cadastrar ajudantes, com dados corretos
+
+--Motoristas--
+Cadastrar:
+	permite caracter especial e numero no campo nome
+	permite caracter especial e numero no campo nome reduzido
+	permite caracter especial e numero no campo falar com
+	permite caracter especial e numero no campo Nome do Pai
+	permite caracter especial e numero no campo Nome da Mãe
+	permite caracter especial no campo orgao emissor
+	
+--ZONAS--
+Cadastrar:
+	formato do tempo de deslocamento
+		na inclusao esta com ponto e na consulta esta com dois pontos
+	conversor de horas
+		é possivel colocar EX .79 na hora
+
+--Setor--
+Cadastrar:
+	conversor de horas no campo Tempo de Deslocamento
+		é possivel colocar EX 000.79 na hora
+
+
+conflitos de cep no setor por zonas
+
+
+-----------------------------------------------------------------------------------------------------
+
+Novos Testes 1.1
+
+
+Transportadoras
+	Campo telefone está com a mascara errado "(99)"
+	Campo celular está com a mascara errado "(99)"
+	Na tela "Consultar" não está funcionando o filtro
+	Tentativa de cadastro duplicado, valida todas as informações, mas nao deixa cadastrar, o campo fica com cor diferente.
+	Tentativa de excluir um cadastro, apos apertar o botao de remover, aparece um alerta dizendo que foi excluido mas a janela de confirmação nao sai da tela, é necessario dar refresh (que tambem esta com problema) para realizar a atualização da pagina
+	permite caracter especial no campo Via de transporte
+	permite caracter especial no campo Endereco padrap Carg/Desc
+	permite caracter especial e numerico no campo Local
+	permite caracter especial no campo Contato
+
+Ajudantes
+
+Motoristas
+	Permitido colocar a data de vencimento da cnh igual a data de expedição da cnh
+	Permitido colocar a mesma informação no campo telefone e telefone de recados 
+
+Veiculos
+	Campo Modelo do Caminhão deveria ser Modelo do Veiculo
+	Campo placa do caminhão deveria ser Placa do Veiculo
+	permite caracter especial no codigo do veiculo
+	permite caracter especial no modelo do caminhao
+	permite caracter especial na placa do caminhao
+	permite letras e caracter especial no campo capacidade Nominal
+	permite letras e caracter especial no campo capacidade Maxima
+	permite letras e caracter especial no campo Volume Maximo
+	permite letras e caracter especial no Lim. Max de Ptos. Venda
+	permite letras e caracter especial no campo Altura Interna
+	permite letras e caracter especial no campo Largura Interna
+	permite letras e caracter especial no campo Comp Interno
+	permite letras e caracter especial no campo Altura Externa
+	permite letras e caracter especial no campo Largura Externa
+	permite letras e caracter especial no campo Comp Externo
+	permite letras e caracter especial no campo No. Viagem Atual
+	permite caracter especial e numero no campo Proprietario
+	permite caracter especial no campo Loja do proprietario
+	permite letras e caracter especial no campo Ano Modelo
+	permite letras e caracter especial no campo Ano Fabricacao
+	permite caracter especial no campo Chassi
+	permite letras e caracter especial no campo Qtde.Eixos
+	permite letras e caracter especial no campo Codigo do Renavan
+	campo codigo do renavam necessita ter 11 posições de tamanho está com 6
+	permite letras e caracter especial no campo Tara do veiculo
+	permite letras e caracter especial no campo numero do CIV
+	permite letras e caracter especial no campo Numero do CIPP
+	
+	
+	
+	
