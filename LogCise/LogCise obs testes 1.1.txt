@@ -1,13 +1,16 @@
+**TESTES A NIVEL DE USUARIO**
+
 Ao atualizar a pagina, apresenta um erro
 
 --Usuarios--
 Cadastrar:
-	permite numero e caracter especial no campo nome
+	permite numero e caracter especial no campo nome 
+		=> AINDA ESTA ACEITANDO NUMERO
 
 --Transportadora--
 Cadastrar:
-	permite caracter especial no campo nome
-	permite caracter especial no campo nome reduzido
+	permite caracter especial no campo nome OK
+	permite caracter especial no campo nome reduzido OK
 	
 Consultas:
 	filtros nao estao funcionando - esta aparecendo "não foi possível lista de transportadoras".
@@ -44,7 +47,7 @@ Cadastrar:
 conflitos de cep no setor por zonas
 
 
------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Novos Testes 1.1
 
@@ -94,7 +97,22 @@ Veiculos
 	permite letras e caracter especial no campo Tara do veiculo
 	permite letras e caracter especial no campo numero do CIV
 	permite letras e caracter especial no campo Numero do CIPP
+	permite fazer o cadastro de um mesmo veiculo se trocar o codigo do veiculo (talvez seja interessante validar com o numero da placa e numero do chassi / Documento)
+
+Zonas
+	Campo Tempo de deslocamento está gravando no banco o mesmo que foi escrito no front Ex: 998:99 (Deve ser em formato de hora)
+	não indica quais são os campos obrigatórios
+
+Setor por Zonas
+	Não indica quais são os campos obrigatórios
+	Campo Tempo de deslocamento está gravando no banco o mesmo que foi escrito no front Ex: 998:99 (Deve ser em formato de hora)
 	
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Analises a nivel do desenvolvimento das tabelas**
+
+
 	
 	
 	
